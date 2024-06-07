@@ -14,6 +14,7 @@ include 'libs/load.php';
     <main>
 
         <?load_template('_login');?>
+        <p>Don't have an account? <a href="signup.php">Signup Now!</a></p>
 
     </main>
     <?load_template('_footer');?>

@@ -1,18 +1,14 @@
 <?php
-
 $username = $_POST['email_address'];
 $password = $_POST['password'];
 
 $result = validate_credentials($username, $password);
 
 if ($result) {
+    
+    header("Location: index.php");
+    exit();
     ?>
-<main class="container">
-    <div class="bg-light p-5 rounded mt-3">
-        <h1>Login Success</h1>
-        <p class="lead">This example is a quick exercise to do basic login with html forms.</p>
-    </div>
-</main>
 <?php
 } else {
         ?>

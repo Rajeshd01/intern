@@ -13,9 +13,10 @@ function load_template($name)
 
 function validate_credentials($username, $password)
 {
-    if ($username == "rajeshd01042004@gmail.com" and $password == "password") {
+    if ($username == "rajeshd01@new.com" and $password == "rajeshd01") {
         return true;
     } else {
         return false;
     }
 }
+
