@@ -35,6 +35,7 @@ if ($result) {
             <label>
                 <input type="checkbox" value="remember-me"> Remember me
             </label>
+            <p>Don't have an account? <a href="signup.php">Signup Now!</a></p>
         </div>
         <button class="w-100 btn btn-lg btn-primary hvr-grow-rotate" type="submit">Sign in</button>
     </form>

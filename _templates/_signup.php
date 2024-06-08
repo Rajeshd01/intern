@@ -60,6 +60,7 @@ if (isset($_POST['username']) and isset($_POST['password']) and !empty($_POST['p
             <input name="password" type="password" class="form-control" id="floatingPassword" placeholder="Password">
             <label for="floatingPassword">Password</label>
         </div>
+        <p>Already have an account? <a href="index.php">Login here</a></p>
         <button class="w-100 btn btn-lg btn-primary hvr-grow-rotate" type="submit">Sign up</button>
     </form>
 </main>
